@@ -1,18 +1,13 @@
 {
-  "name": "make-one-entertainment",
+  "name": "base44-app",
   "private": true,
-  "version": "1.0.0",
-  "description": "Make One Entertainment 공식 웹사이트 - 이벤트 기획, 팀빌딩, 축제 서비스",
+  "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview",
-    "start": "npm run dev",
-    "test": "echo \"테스트가 설정되지 않았습니다\" && exit 0",
-    "clean": "rm -rf dist node_modules",
-    "reinstall": "npm run clean && npm install"
+    "preview": "vite preview"
   },
   "dependencies": {
     "@base44/sdk": "^0.1.2",
